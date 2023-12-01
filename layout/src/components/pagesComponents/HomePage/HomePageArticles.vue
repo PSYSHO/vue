@@ -32,10 +32,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$familyTitle: "DM Serif Display";
-$font-400: 400;
-$familyText: "Jost";
-$widthSite: 1200px;
+@import "../../../scss/vars";
 .blog {
    margin-top: 96px;
    margin-bottom: 96px;

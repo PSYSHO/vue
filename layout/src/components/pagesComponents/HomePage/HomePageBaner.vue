@@ -37,9 +37,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$font-400: 400;
-$familyTitle: "DM Serif Display";
-$familyText: "Jost";
+@import "../../../scss/vars";
 .baner {
    &__wrap {
       height: 758px;

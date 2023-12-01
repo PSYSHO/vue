@@ -96,10 +96,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$familyText: "Jost";
-$familyTitle: "DM Serif Display";
-$font-400: 400;
-$font-500: 500;
+@import "../../../scss/vars";
+
 .blog__title-left {
   text-align: left;
   margin-top: 150px;
