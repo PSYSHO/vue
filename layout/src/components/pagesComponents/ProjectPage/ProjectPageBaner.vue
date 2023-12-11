@@ -28,10 +28,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../../../scss/vars";
+@import "@/scss/vars";
 
 .banner {
-  background-image: url("../../../assets/images/ProjectBaner.jpg");
+  background-image: url("@/assets/images/ProjectBaner.jpg");
   height: 356px;
   display: flex;
   justify-content: center;

@@ -21,9 +21,9 @@
     </div>
     <div class="footer__menu">
       <p class="footer__menu-title">Pages</p>
-      <a class="footer__menu-link" href="#">Home</a>
-      <a class="footer__menu-link" href="#">Project</a>
-      <a class="footer__menu-link" href="#">Blog</a>
+      <router-link class="footer__menu-link" to="/">Home</router-link>
+      <router-link class="footer__menu-link" to="/Project">Project</router-link>
+      <router-link class="footer__menu-link" to="/Blog">Blog</router-link>
     </div>
     <div class="footer__services"></div>
     <div class="footer__contact">

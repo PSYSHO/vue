@@ -2,7 +2,7 @@
   <section class="latest-post center">
     <h2 class="latest-post__title">Latest Post</h2>
     <div class="latest-post__wrap">
-      <img src="../../../assets/images/latest-post-img.jpg" alt="latest-post-img" class="latest-post__img">
+      <img src="@/assets/images/latest-post-img.jpg" alt="latest-post-img" class="latest-post__img">
       <div class="latest-post__content">
         <h3 class="latest-post__content-title">Low Cost Latest Invented Interior Designing Ideas</h3>
         <p class="latest-post__content-text">Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpis
@@ -11,9 +11,9 @@
           classica.</p>
         <div class="latest-post__content-wrap">
           <p class="latest-post__content-data">26 December, 2022</p>
-          <a href="#">
-            <img src="../../../assets/images/row_left_blog.svg" alt="row_left_blog">
-          </a>
+          <router-link to="/blog-details">
+            <img src="@/assets/images/row_left_blog.svg" alt="row_left_blog">
+          </router-link>
         </div>
       </div>
     </div>
@@ -41,7 +41,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../../../scss/vars";
+@import "@/scss/vars";
 
 .latest-post {
   &__title {

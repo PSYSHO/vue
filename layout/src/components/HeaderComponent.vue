@@ -5,9 +5,9 @@
       <p class="logo__text">Interno</p>
     </div>
     <div class="header__menu">
-      <a class="header__link" href="#">Home</a>
-      <a class="header__link" href="#">Project</a>
-      <a class="header__link" href="#">Blog</a>
+      <router-link class="header__link" to="/">Home</router-link>
+      <router-link class="header__link" to="/Project">Project</router-link>
+      <router-link class="header__link" to="/Blog">Blog</router-link>
     </div>
   </header>
 </template>

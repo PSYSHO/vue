@@ -1,45 +1,8 @@
 <template>
   <div id="app">
-    <ProjectDetails />
-
-    <ProjectPage />
-
-    <HomePage />
-
-    <BlogPage />
-
-    <BlogDetailsPage />
+    <router-view />
   </div>
 </template>
-
-<script>
-
-import HomePage from './pages/HomePage.vue'
-
-import BlogPage from './pages/BlogPage.vue'
-
-import BlogDetailsPage from './pages/BlogDetailsPage.vue'
-
-import ProjectPage from './pages/ProjectPage.vue'
-
-import ProjectDetails from './pages/ProjectDetails.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HomePage,
-
-    BlogPage,
-
-    BlogDetailsPage,
-
-    ProjectPage,
-
-    ProjectDetails
-
-  }
-}
-</script>
 
 <style lang="scss">
 @import "scss/vars";

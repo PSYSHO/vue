@@ -2,7 +2,7 @@
   <div class="project-details">
     <carousel :perPage="1" class="carousel">
       <slide v-for="(slide, index) in slides" :key="index" class="slide">
-        <img :src="require('../../../assets/images/' + slide.url)" :alt="slide.alt">
+        <img :src="require('@/assets/images/' + slide.url)" :alt="slide.alt">
       </slide>
     </carousel>
   </div>
