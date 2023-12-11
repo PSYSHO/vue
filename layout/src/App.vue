@@ -1,10 +1,14 @@
 <template>
   <div id="app">
-    <HomePage></HomePage>
+    <ProjectDetails />
 
-    <BlogPage></BlogPage>
+    <ProjectPage />
 
-    <BlogDetailsPage></BlogDetailsPage>
+    <HomePage />
+
+    <BlogPage />
+
+    <BlogDetailsPage />
   </div>
 </template>
 
@@ -16,6 +20,10 @@ import BlogPage from './pages/BlogPage.vue'
 
 import BlogDetailsPage from './pages/BlogDetailsPage.vue'
 
+import ProjectPage from './pages/ProjectPage.vue'
+
+import ProjectDetails from './pages/ProjectDetails.vue'
+
 export default {
   name: 'App',
   components: {
@@ -23,7 +31,11 @@ export default {
 
     BlogPage,
 
-    BlogDetailsPage
+    BlogDetailsPage,
+
+    ProjectPage,
+
+    ProjectDetails
 
   }
 }
